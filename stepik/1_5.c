@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+/*
 int main() {
 	int N;
 	int a;
@@ -13,4 +14,21 @@ int main() {
 			a++;
 		}		
 	}
+} 
+*/
+
+int main() {
+	int A;
+	scanf("%d", &A);
+	int a;
+	a = 2;
+	while(a <= A) {
+		if(A % a == 0) {
+			printf("%d", a);
+			break;
+		}
+		else a++;
+	}
 }
+
+
